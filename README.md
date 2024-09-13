@@ -11,3 +11,18 @@ Synchronous FIFO: Data is transferred in sync with a clock signal, ensuring coor
 
 Asynchronous FIFO: Data is transfer not in sync with a clock, potentially leading to timing issues and requiring additional handshaking signals.
 
+Verilog HDL Code:
+The FIFO is defined with parameters for data width and depth, and contains logic for managing read, write, and status flag operations.
+
+Testing and Verification
+Creating a thorough testbench is critical to ensuring the functionality of the FIFO buffer under various conditions.
+
+Key scenarios to test include:
+
+Normal operations:
+Writing data into the FIFO when it's not full.
+Reading data from the FIFO when it's not empty.
+
+Boundary conditions:
+Attempting to write when the FIFO is full.
+Attempting to read when the FIFO is empty.
