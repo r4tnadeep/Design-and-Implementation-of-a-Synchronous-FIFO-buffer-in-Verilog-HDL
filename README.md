@@ -14,7 +14,7 @@ Asynchronous FIFO: Data is transfer not in sync with a clock, potentially leadin
 Verilog HDL Code:
 The FIFO is defined with parameters for data width and depth, and contains logic for managing read, write, and status flag operations.
 
-Testing and Verification
+Testing and Verification:
 Creating a thorough testbench is critical to ensuring the functionality of the FIFO buffer under various conditions.
 
 Key scenarios to test include:
@@ -26,3 +26,8 @@ Reading data from the FIFO when it's not empty.
 Boundary conditions:
 Attempting to write when the FIFO is full.
 Attempting to read when the FIFO is empty.
+
+Technologies and Tools Used:
+
+Verilog: Used to describe the hardware logic.
+Xilinx Vivado: Vivado is used to simulate the Verilog code, verify the functionality.
