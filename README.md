@@ -21,13 +21,15 @@ Key scenarios to test include:
 
 Normal operations:
 Writing data into the FIFO when it's not full.
+
 Reading data from the FIFO when it's not empty.
 
 Boundary conditions:
 Attempting to write when the FIFO is full.
+
 Attempting to read when the FIFO is empty.
 
 Technologies and Tools Used:
+\Verilog: Used to describe the hardware logic.
 
-Verilog: Used to describe the hardware logic.
 Xilinx Vivado: Vivado is used to simulate the Verilog code, verify the functionality.
